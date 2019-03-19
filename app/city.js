@@ -1,4 +1,4 @@
-const {Divinity} = require('./divinity');
+const {Divinity} = require('../divinity');
 
 class City {
 	constructor(name, divinityName) {

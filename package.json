@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "node divinity.js",
-    "test": "mocha"
+    "test": "mocha",
+    "codestyle": "xo"
   },
   "xo": {
     " envs ": [
@@ -15,10 +16,15 @@
     " prettier ": true
   },
   "devDependencies": {
+    "after": "^0.8.2",
+    "before": "^0.0.1",
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
     "git": "^0.1.5",
+    "it": "^1.1.1",
+    "mime": "^2.4.0",
     "mocha": "^6.0.2",
+    "should": "^13.2.3",
     "xo": "^0.24.0"
   }
 }
